@@ -43,8 +43,6 @@ with_Unet = True
 ### End of hyperparameters setting
 
 
-
-
 if loss == "MSE":
     criterion = nn.MSELoss()
 else:
@@ -64,8 +62,6 @@ print("num_layers:" + str(num_layers))
 print("withUNet: " + str(with_Unet))
 print("Loss: " + loss)
 print("===================================")
-
-
 
 
 

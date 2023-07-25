@@ -66,9 +66,6 @@ print("===================================")
 
 
 
-
-
-
 train_data, val_data, test_data = get_ETTh1_data(dataset=dataset, target=target, input_window=input_window, output_window=output_window, device=device)
 
 if with_Unet == True:
